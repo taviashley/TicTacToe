@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="title_name">Tic Tac Toe</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="current_player">Current Player : </string>
+    <string name="circle_o">CIRCLE (O)</string>
+    <string name="circle_x">CIRCLE (X)</string>
+    <string name="game_over">GAME OVER!</string>
+    <string name="game_draw">DRAW Game!</string>
+    <string name="ok">OK</string>
+    <string name="congrats">CONGRATS!</string>
+    <string name="cross_x_wins">Cross (X) Wins!</string>
+    <string name="circle_o_wins">Circle (0) Wins!</string>
+    <string name="lose">Nobody wins but nobody loses!</string>
+
+</resources>

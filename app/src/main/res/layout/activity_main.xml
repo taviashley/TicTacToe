@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dp_24">
+
+            <TextView
+                android:id="@+id/textView_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/title_name"
+                android:textSize="@dimen/sp_32"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="@dimen/dp_12">
+
+            <Button
+                android:id="@+id/button_resetGame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_refresh_black_24dp"
+                android:gravity="center"
+                android:text="@string/reset_game"
+                android:textSize="@dimen/sp_24"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="@dimen/dp_24">
+
+            <TextView
+                android:id="@+id/textView_CurrentPlayerTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/current_player"
+                android:textSize="@dimen/sp_24"/>
+
+            <TextView
+                android:id="@+id/textView_CurrentPlayer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/circle_o"
+                android:textSize="@dimen/sp_24"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton_7"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_90"
+                android:layout_weight="1"
+                android:onClick="clickImageButton"/>
+
+            <ImageButton
+                android:id="@+id/imageButton_8"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_90"
+                android:layout_weight="1"
+                android:onClick="clickImageButton"/>
+
+            <ImageButton
+                android:id="@+id/imageButton_9"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_90"
+                android:layout_weight="1"
+                android:onClick="clickImageButton"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton_4"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_90"
+                android:layout_weight="1"
+                android:onClick="clickImageButton"/>
+
+            <ImageButton
+                android:id="@+id/imageButton_5"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_90"
+                android:layout_weight="1"
+                android:onClick="clickImageButton"/>
+
+            <ImageButton
+                android:id="@+id/imageButton_6"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_90"
+                android:layout_weight="1"
+                android:onClick="clickImageButton"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_90"
+                android:layout_weight="1"
+                android:onClick="clickImageButton"/>
+
+            <ImageButton
+                android:id="@+id/imageButton_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_90"
+                android:layout_weight="1"
+                android:onClick="clickImageButton"/>
+
+            <ImageButton
+                android:id="@+id/imageButton_3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_90"
+                android:layout_weight="1"
+                android:onClick="clickImageButton"/>
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
